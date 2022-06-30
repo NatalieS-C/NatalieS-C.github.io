@@ -1,0 +1,226 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: #d5d9dc; 
+ text-align: center;
+font-family: 'Lustria', serif;
+}
+
+/* STYLE TEXT */
+
+h1 {
+  font-size: 2.5em;
+  color: #274060;
+  padding-top: 50px;
+}
+
+h2 {
+  color: #274060;
+  padding-top: 50px;
+}
+
+p {
+font-size: 20px;
+}
+
+.list {
+  color: #d5d9dc;
+  text-align: left; 
+  font-size: 20px;
+  font-family: monospace;
+  margin-left: 100px;
+  margin-right: 10px; 
+  padding: 10px; 
+  list-style-type: circle;
+}
+
+#fact {
+  color: #274060;
+  padding-top: 50px;
+}
+
+#mission {
+    font-size: 1.2em;
+    background-color: #274060;
+    color: white;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 3em;
+    padding-bottom: 2em;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+}
+
+#missionTitle {
+  font-size: 2.5em;
+  padding-bottom: 1em;
+  padding-top: 2em;
+  color: #274060
+}
+
+#fact {
+  color: #d5d9dc;
+}
+
+#fromM {
+  font-size: 1.2em;
+}
+#factGenerator {
+  font-size: 1.2em;
+  background-color: #274060;
+  color: #d5d9dc;
+  padding-left: 6em;
+  padding-right: 6em;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  margin-left: 25%;
+  margin-right: 25%;
+  line-height: 1.6;
+}
+
+#QandA {
+    font-size: 1.2em;
+    background-color: #274060;
+    color: white;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+    line-height: 1.6;
+
+}
+
+#takeAction {
+   font-size: 2em;
+   padding-bottom: 1em;
+   padding-top: 2em;
+   color: #274060
+} 
+.question {
+  font-weight: bold;
+  text-decoration: underline;
+
+}
+
+#problemHeading {
+  font-size: 2.5em;
+  color: #274060;
+}
+
+#action {
+    font-size: 1.2em;
+    background-color: #274060;
+    color: white;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 3em;
+    padding-bottom: 2em;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+}
+
+#link1 {
+  text-decoration: underline;
+  background-color: #d5d9dc; 
+  color: #40798c; 
+  font-size: 20px;
+  padding: 5px; 
+}
+
+#link1.hover {
+  background-color: #d5d9dc; 
+  color: #40798c; 
+}
+
+/* STYLE IMAGES */
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: #274060;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/* STYLE NAV BAR */
+.navContent {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flexboxContainer{
+  display: flex;
+  flex-direction: row;  
+  flex-wrap: nowrap;
+}
+
+.flexItem{
+  flex-basis: 100%;
+  text-align: center;
+}
+ li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #274060;
+  position: fixed;
+  width: 100%;
+}
+
+li {
+  float: center;
+}
+
+
+li a:hover:not(.active) {
+  background-color:#161925;
+  color: white;
+}
+
+.active{
+  background-color: #161925;
+}
+
+/* STYLE BUTTONS */
+#generateFactButton {
+  background: #d5d9dc;
+  border-radius: 10px;
+  font-size: 1em;
+  padding-top: 0.2vw;
+  padding-bottom: 0.2vw;
+  padding-left: 0.4vw;
+  padding-right: 0.4vw;
+}
+
+/*BREAKPOINT 1*/
+@media screen and (max-width: 991px){
+  .flexboxContainer {
+    flex-wrap: wrap;
+  }
+}
