@@ -1,5 +1,5 @@
 # NatalieS-C.github.io
-A website on information about affordable healthcare
+This is a website about affordable healthcare.
 
 # Activist Toolkit Sample Project
 
